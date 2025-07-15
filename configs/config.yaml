@@ -1,0 +1,25 @@
+gpu: 0
+input: "" # 单张图片的路径或者多个图片的目录
+output: "" # 输出目录
+shape: 256
+use_diffusion: false # 控制DM的使用
+use_merge: false
+
+# 子配置文件都需要更新的参数，同时要注册于 utils/config.py 中的 stage_config_updated_params()函数中
+subconfig_path: ./configs/imagenet.yaml
+algorithm: o_ddim
+debug: false
+mode: deblur # sr, deblur
+n_samples: 1
+scale: 2
+
+ddim:
+  start_step: 150 # 150步有着清晰的轮廓
+
+
+
+
+
+
+
+
