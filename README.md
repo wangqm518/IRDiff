@@ -24,8 +24,10 @@ Split the image into 256*256 patches (If you use 512*512 Diffusion Models, you c
 python scripts/preprocess_crop.py
 ```
 ### Patch IR and Merging
+<img src="assets/绘图2.jpg">
+
 ```text
-输入参数说明：
+Input parameter description：
 python main.py
     --config_file           Main config file path
     --input:                The path to the input image or folder
