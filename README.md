@@ -1,5 +1,5 @@
 # IRDiff
-
+<img src="assets/绘图1.jpg">
 
 ## Requirements
 ### Environment
