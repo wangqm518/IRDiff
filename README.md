@@ -1,7 +1,7 @@
 # IRDiff
 <img src="assets/绘图1.jpg">
 
-For super-resolution and deblurring tasks, reverse denoising starts from the degraded image forward noised to a certain timestep (default is the 150th step, where a clear outline is present but texture details have not yet been restored). Combining the skip sampling strategy proposed in our GuidPaint (https://github.com/wangqm518/GuidPaint), the sampling time can be significantly reduced.
+For super-resolution and deblurring tasks, reverse denoising starts from the degraded image forward noised to a certain timestep (default is the 150th step, where a clear outline is present but texture details have not yet been restored). Combining the skip sampling strategy proposed in our GuidPaint (https://github.com/wangqm518/GuidPaint), the sampling time can be significantly reduced. We adopt the intermediate generation gradient update scheme from CoPaint.
 
 ## Requirements
 ### Environment
@@ -53,4 +53,5 @@ python main.py --config_file configs/config.yaml --input data_sr/celeb_sample-64
 the real world noised images come from ZTE (https://challenge.zte.com.cn).
 
 Our implementation is based on following repos:
-*https://github.com/openai/guided-diffusion
+* https://github.com/openai/guided-diffusion
+* https://github.com/UCSB-NLP-Chang/CoPaint
