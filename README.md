@@ -1,7 +1,7 @@
 # IRDiff
 <img src="assets/绘图1.jpg">
 
-For super-resolution and deblurring tasks, reverse denoising starts from the degraded image forward noised to a certain timestep (default is the 150th step, where a clear outline is present but texture details have not yet been restored). Combining the skip sampling strategy proposed in our GuidPaint, the sampling time can be significantly reduced.
+For super-resolution and deblurring tasks, reverse denoising starts from the degraded image forward noised to a certain timestep (default is the 150th step, where a clear outline is present but texture details have not yet been restored). Combining the skip sampling strategy proposed in our GuidPaint (https://github.com/wangqm518/GuidPaint), the sampling time can be significantly reduced.
 
 ## Requirements
 ### Environment
